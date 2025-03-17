@@ -6,3 +6,6 @@ openai-whisper
 TTS
 pyaudio
 pydub
+wave
+cuda
+streamlit
