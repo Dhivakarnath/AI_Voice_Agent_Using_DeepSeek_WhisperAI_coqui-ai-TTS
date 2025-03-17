@@ -1,0 +1,8 @@
+assemblyai[extras]
+ollama
+elevenlabs
+dotenv
+openai-whisper
+TTS
+pyaudio
+pydub
