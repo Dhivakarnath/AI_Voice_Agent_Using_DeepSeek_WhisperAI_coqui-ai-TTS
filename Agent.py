@@ -1,3 +1,5 @@
+#Completely Offline Approach
+
 import whisper
 from TTS.api import TTS
 import ollama
