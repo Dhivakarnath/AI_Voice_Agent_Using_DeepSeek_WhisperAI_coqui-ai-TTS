@@ -21,10 +21,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Fix for the "no running event loop" error
-# Instead of trying to detect a running loop, use try/except for asyncio operations
-# Removed: if not hasattr(asyncio, "_get_running_loop"): asyncio._get_running_loop = asyncio.get_running_loop
-
 # Set PyTorch multiprocessing method
 try:
     torch.multiprocessing.set_start_method('spawn', force=True)
